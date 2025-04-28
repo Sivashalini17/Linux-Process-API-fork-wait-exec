@@ -49,7 +49,7 @@ int main() {
 ![Screenshot from 2025-04-28 10-54-28](https://github.com/user-attachments/assets/7846e923-6e37-4130-89fd-ac7c4e3a9214)
 
 ## C Program to create new process using Linux API system calls fork() and exit()
-
+```
 #include <stdlib.h>
 #include#<sys/wait.h>
 #include <sys/types.h>
@@ -73,7 +73,8 @@ printf("Running ps with execlp. Now with path specified\n");
         printf("Done.\n");
         exit(0);
 }
-        
+```
+      
 ##OUTPUT
 
 ![Screenshot from 2025-04-28 11-12-00](https://github.com/user-attachments/assets/253c3704-4cb8-44c3-b014-3e5e33750fc9)
